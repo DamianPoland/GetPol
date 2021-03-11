@@ -1,0 +1,56 @@
+/* base in index.css */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  font-size: 100%;
+  overflow-x: hidden;
+  background: black;
+
+  /* scrollbar ONLY for mozilla, scrollbar-width - "auto" or "thin"  */
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) gray;
+
+}
+
+:root {
+  /* colors */
+
+  --accent: 255, 50, 50;
+  /* #ff3232 */
+
+  --text: #5c6f87;
+
+  --backgroundCustom: linear-gradient(90deg, rgb(240, 240, 240) 0%, rgb(221, 221, 221) 50%, rgb(240, 240, 240) 100%);
+}
+
+/* custom scroll bar in body (mobile not work) */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(var(--accent), 0.6);
+  border-radius: 999px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  html,
+  body {
+    font-size: 75%;
+  }
+}

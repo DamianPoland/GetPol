@@ -1,0 +1,21 @@
+.swiper-pagination-bullet-active {
+    background: rgb(var(--accent)) !important;
+}
+
+.swiper-button-prev {
+    color: rgb(var(--accent)) !important;
+}
+
+.swiper-button-next {
+    color: rgb(var(--accent)) !important;
+}
+
+.swiper-slider-ontainer-custom {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
