@@ -104,8 +104,12 @@
 }
 
 .start {
+
+    /*full screen in mobile first section (cut browser search bar on mobile) + js code*/
+    height: calc(100vh - 4rem);
+    height: calc(var(--vh, 1vh) * 100 - 4rem);
+
     max-width: 1200px;
-    min-height: calc(100vh - 4rem);
     margin: auto;
     display: flex;
     flex-direction: column;

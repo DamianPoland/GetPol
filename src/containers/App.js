@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { HashRouter, BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 // aos
 import AOS from 'aos'

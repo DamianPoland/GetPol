@@ -29,6 +29,16 @@ const About = () => {
 
     useEffect(() => { window.scrollTo(0, 0) }, [])
 
+    // full screen in mobile first section (cut browser search bar on mobile) + css code
+    useEffect(() => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`)
+        // window.addEventListener('resize', () => { // change vh when browser search bar disapear
+        //     document.querySelector(':root').style
+        //         .setProperty('--vh', window.innerHeight / 100 + 'px')
+        // })
+    }, [])
+
 
     return (
 
