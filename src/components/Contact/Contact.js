@@ -139,15 +139,15 @@ const Contact = () => {
                     {/* contact links  */}
                     <section className={style.content}>
                         <a className={style.contentItem} href={`http://maps.google.com/?q=Gdańsk ul. Wawelska 33/6`} target='blank' >
-                            <p className={style.contentIcon}><Location /></p>
+                            <div className={style.contentIcon}><Location /></div>
                             <p className={style.contentDesc}>Gdańsk ul. Wawelska 33/6</p>
                         </a>
                         <a className={style.contentItem} href='tel:+48730793222'>
-                            <p className={style.contentIcon}><Phone /></p>
+                            <div className={style.contentIcon}><Phone /></div>
                             <p className={style.contentDesc}>+48 730-793-222</p>
                         </a>
                         <a className={style.contentItem} href='mailto:biuro@getpol.com.pl?subject=Zapytanie'>
-                            <p className={style.contentIcon}><Email /></p>
+                            <div className={style.contentIcon}><Email /></div>
                             <p className={style.contentDesc}>biuro@getpol.com.pl</p>
                         </a>
                     </section>
@@ -173,7 +173,7 @@ const Contact = () => {
                                     <label className={style.label}>Wiadomość</label>
                                     {inputMessageIsInvalid && <p className={style.isValid}>{inputMessageIsInvalid}</p>}
                                 </div>
-                                <input className={style.btn} type="submit" />
+                                <input className={style.btn} type="submit" value="Wyślij" />
                             </form>
                             <div className={`${style.envelope} ${isFormAnimation && style.envelopeAnim}`}>
                                 <Envelope />
