@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import style from './PrivacyPolicy.module.css'
 import privacy from './privacy.jpg'
 
 
 const PrivacyPolicy = () => {
+
+    useEffect(() => { window.scrollTo(0, 0) }, [])
+
     return (
         <section className={style.background}>
             <div className={style.privacyContainer}>
