@@ -125,6 +125,7 @@
 .start__containerBottom {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 6rem;
 }
 
 .start__imgBulb2 {
@@ -139,7 +140,7 @@
 
 .start__imgLogo {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     right: 0;
     width: 60%;
@@ -149,7 +150,7 @@
 
 .start__arrow {
     position: absolute;
-    bottom: 2rem;
+    bottom: 8rem;
     left: 50%;
     width: 1.5rem;
     height: 1.5rem;
