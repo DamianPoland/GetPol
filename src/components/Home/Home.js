@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import style from './About.module.css'
+import style from './Home.module.css'
 import { Link } from 'react-router-dom'
 
 
@@ -25,7 +25,7 @@ import ups3 from "../../assets/ups/ups3.jpg"
 
 
 
-const About = () => {
+const Home = () => {
 
     useEffect(() => { window.scrollTo(0, 0) }, [])
 
@@ -48,23 +48,22 @@ const About = () => {
                 <div className={style.start}>
 
                     <figure className={style.start__imgBulb1}>
-                        <img className={style.img} src={bulb} alt='bulb' />
+                        <img className="img" src={bulb} alt='bulb' />
                     </figure>
 
                     <div className={style.start__containerBottom}>
                         <figure className={style.start__imgBulb2}>
-                            <img className={style.img} src={bulb} alt='bulb' />
+                            <img className="img" src={bulb} alt='bulb' />
                         </figure>
                         <figure className={style.start__imgBulb3}>
-                            <img className={style.img} src={bulb} alt='bulb' />
+                            <img className="img" src={bulb} alt='bulb' />
                         </figure>
                     </div>
 
                     <figure className={style.start__imgLogo}>
-                        <img className={style.img} src={getpol_logo_red} alt='getpol_logo_red' />
+                        <img className="img" src={getpol_logo_red} alt='getpol_logo_red' />
                     </figure>
                     <i className={style.start__arrow} />
-
                 </div>
             </section>
 
@@ -72,13 +71,13 @@ const About = () => {
             <section className={style.about}>
 
                 <figure data-aos="fade-right" className={style.about__imgContainer}>
-                    <img className={style.img} src={about_img} alt='about_img' />
+                    <img className="img" src={about_img} alt='about_img' />
                 </figure>
 
                 <div className={style.about__desc}>
-                    <div className={style.descHead}>
-                        <p className={style.desc}>O NAS</p>
-                        <h1 data-aos="zoom-in" className={style.descTitle}>Eksperci od elektryki</h1>
+                    <div className="descHead">
+                        <p className="desc">O NAS</p>
+                        <h1 data-aos="zoom-in" className="descTitle">Eksperci od elektryki</h1>
                     </div>
                     <p className={style.descText}>Firma Getpol rozpoczęła działalność w 2014 roku. Początkowo działalność firmy opierała się głównie na sprzedaży agregatów prądotwórczych i zasilaczy bezprzerwowych UPS. Z czasem poszerzyliśmy ofertę o serwis, a wychodząc naprzeciw oczekiwaniom naszych Klientów z czasem do oferty dołączyliśmy także kompletne instalacje dostarczanych urządzeń. Poza tym wykonujemy instalacje niskoprądowe oraz elektryczne.</p>
                 </div>
@@ -88,9 +87,9 @@ const About = () => {
             <section className={style.contact}>
 
                 <div className={style.contact__desc}>
-                    <div className={style.descHead}>
-                        <p className={`${style.desc} ${style.desc__whiteText}`}>SKONTAKTUJ SIĘ</p>
-                        <h2 data-aos="zoom-in" className={style.descTitle}>Profesjonalne doradztwo, bezpłatna i szybka wycena</h2>
+                    <div className="descHead">
+                        <p className="desc desc__whiteText">SKONTAKTUJ SIĘ</p>
+                        <h2 data-aos="zoom-in" className="descTitle">Profesjonalne doradztwo, bezpłatna i szybka wycena</h2>
                     </div>
                     <p className={style.contact__descText}>+48 730-793-222</p>
                     <div className={style.btnContainer}>
@@ -103,9 +102,9 @@ const About = () => {
 
             <section className={style.why}>
                 <div className={style.why__desc}>
-                    <div className={style.descHead}>
-                        <p className={style.desc}>DLACZEGO MY</p>
-                        <p data-aos="zoom-in" className={style.descTitle}>Co nas wyróżnia</p>
+                    <div className="descHead">
+                        <p className="desc">DLACZEGO MY</p>
+                        <p data-aos="zoom-in" className="descTitle">Co nas wyróżnia</p>
                     </div>
                     <div className={style.why__descItems}>
 
@@ -143,23 +142,23 @@ const About = () => {
 
             <section className={style.realizations}>
                 <div className={style.realizations__desc}>
-                    <div className={style.descHead}>
-                        <p className={`${style.desc} ${style.desc__whiteText}`}>REALIZACJE</p>
-                        <p data-aos="zoom-in" className={style.descTitle}>Niektóre nasze projekty</p>
+                    <div className="descHead">
+                        <p className="desc desc__whiteText">REALIZACJE</p>
+                        <p data-aos="zoom-in" className="descTitle">Niektóre nasze projekty</p>
                     </div>
                     <h2 className={`${style.descText} ${style.descText__whiteText}`}>Mamy za sobą z sukcesem zrealizowane dostawy oraz instalacje dla klientów indywidualnych jak i instytucjonalnych.</h2>
                     <div className={style.realizations__imgContainer}>
                         <figure data-aos="flip-up" className={style.realizations__img}>
-                            <img className={style.img} src={agr1} alt='agr1' />
+                            <img className="img" src={agr1} alt='agr1' />
                         </figure>
                         <figure data-aos="flip-up" className={style.realizations__img}>
-                            <img className={style.img} src={agr2} alt='agr2' />
+                            <img className="img" src={agr2} alt='agr2' />
                         </figure>
                         <figure data-aos="flip-up" className={style.realizations__img}>
-                            <img className={style.img} src={agr3} alt='agr3' />
+                            <img className="img" src={agr3} alt='agr3' />
                         </figure>
                         <figure data-aos="flip-up" className={style.realizations__img}>
-                            <img className={style.img} src={ups3} alt='ups3' />
+                            <img className="img" src={ups3} alt='ups3' />
                         </figure>
                     </div>
                     <div className={style.btnContainer}>
@@ -172,9 +171,9 @@ const About = () => {
             <section className={style.offer}>
 
                 <div className={style.offer__desc}>
-                    <div className={style.descHead}>
-                        <p className={style.desc}>OFERTA</p>
-                        <h2 data-aos="zoom-in" className={style.descTitle}>Szeroka oferta naszych produktów</h2>
+                    <div className="descHead">
+                        <p className="desc">OFERTA</p>
+                        <h2 data-aos="zoom-in" className="descTitle">Szeroka oferta naszych produktów</h2>
                     </div>
                     <p className={style.descText}>Firma Getpol oferuje: agregaty prądotwórcze, zasilacze awaryjne UPS, zasilacze urządzeń przeciwpożarowych, układy automatyki SZR / ATS, moduły komunikacji oraz wiele innych.</p>
                     <div className={style.btnContainer}>
@@ -183,11 +182,11 @@ const About = () => {
                 </div>
 
                 <figure data-aos="fade-right" className={style.offer__imgContainer}>
-                    <img className={style.img} src={offers_img} alt='offers_img' />
+                    <img className="img" src={offers_img} alt='offers_img' />
                 </figure>
             </section>
         </main>
     )
 }
 
-export default About
+export default Home

@@ -38,35 +38,35 @@ import ups6 from "../../assets/ups/ups6.jpg"
 
 // array of agregat images
 const agregatsArray = [
-    <img className={style.img} src={agr1} alt={`${agr1}`} />,
-    <img className={style.img} src={agr2} alt={`${agr2}`} />,
-    <img className={style.img} src={agr3} alt={`${agr3}`} />,
-    <img className={style.img} src={agr4} alt={`${agr4}`} />,
-    <img className={style.img} src={agr5} alt={`${agr5}`} />,
-    <img className={style.img} src={agr6} alt={`${agr6}`} />,
-    <img className={style.img} src={agr7} alt={`${agr7}`} />,
+    <img className="img" src={agr1} alt={`${agr1}`} />,
+    <img className="img" src={agr2} alt={`${agr2}`} />,
+    <img className="img" src={agr3} alt={`${agr3}`} />,
+    <img className="img" src={agr4} alt={`${agr4}`} />,
+    <img className="img" src={agr5} alt={`${agr5}`} />,
+    <img className="img" src={agr6} alt={`${agr6}`} />,
+    <img className="img" src={agr7} alt={`${agr7}`} />,
 ]
 
 // array of instaltion images
 const instalationsArray = [
-    <img className={style.img} src={inst1} alt={`${inst1}`} />,
-    <img className={style.img} src={inst2} alt={`${inst2}`} />,
-    <img className={style.img} src={inst3} alt={`${inst3}`} />,
-    <img className={style.img} src={inst4} alt={`${inst4}`} />,
-    <img className={style.img} src={inst5} alt={`${inst5}`} />,
-    <img className={style.img} src={inst6} alt={`${inst6}`} />,
-    <img className={style.img} src={inst7} alt={`${inst7}`} />,
-    <img className={style.img} src={inst8} alt={`${inst8}`} />,
+    <img className="img" src={inst1} alt={`${inst1}`} />,
+    <img className="img" src={inst2} alt={`${inst2}`} />,
+    <img className="img" src={inst3} alt={`${inst3}`} />,
+    <img className="img" src={inst4} alt={`${inst4}`} />,
+    <img className="img" src={inst5} alt={`${inst5}`} />,
+    <img className="img" src={inst6} alt={`${inst6}`} />,
+    <img className="img" src={inst7} alt={`${inst7}`} />,
+    <img className="img" src={inst8} alt={`${inst8}`} />,
 ]
 
 // array of ups images
 const upsArray = [
-    <img className={style.img} src={ups1} alt={`${ups1}`} />,
-    <img className={style.img} src={ups2} alt={`${ups2}`} />,
-    <img className={style.img} src={ups3} alt={`${ups3}`} />,
-    <img className={style.img} src={ups4} alt={`${ups4}`} />,
-    <img className={style.img} src={ups5} alt={`${ups5}`} />,
-    <img className={style.img} src={ups6} alt={`${ups6}`} />,
+    <img className="img" src={ups1} alt={`${ups1}`} />,
+    <img className="img" src={ups2} alt={`${ups2}`} />,
+    <img className="img" src={ups3} alt={`${ups3}`} />,
+    <img className="img" src={ups4} alt={`${ups4}`} />,
+    <img className="img" src={ups5} alt={`${ups5}`} />,
+    <img className="img" src={ups6} alt={`${ups6}`} />,
 
 ]
 
@@ -85,12 +85,8 @@ const Realizations = () => {
 
             <header className={style.start__background}>
                 <div className={style.start}>
-                    <figure className={style.start__imgContainer}>
-                        <img className={`${style.start__img}`} src={bulb} alt='bulb' />
-                    </figure>
-                    <figure className={style.start__imgContainer}>
-                        <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
-                    </figure>
+                    <img className={`${style.start__img}`} src={bulb} alt='bulb' />
+                    <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
                 </div>
             </header>
             <div className={style.start__descContainer}>
@@ -99,9 +95,9 @@ const Realizations = () => {
 
             <section className={style.section}>
                 <div className={style.head}>
-                    <div className={style.descHead}>
-                        <p className={style.desc}>REALIZACJE</p>
-                        <h2 data-aos="zoom-in" className={style.descTitle}>Agregaty prądotwórcze</h2>
+                    <div className="descHead">
+                        <p className="desc">REALIZACJE</p>
+                        <h2 data-aos="zoom-in" className="descTitle">Agregaty prądotwórcze</h2>
                         <p className={style.descText}>Wersje otwarte, zamknięte i mobilne na przyczepie. Jednofazowe i trójfazowe. Benzynowe, diesla i gazowe LPG / NG.</p>
                     </div>
                 </div>
@@ -112,9 +108,9 @@ const Realizations = () => {
 
             <section className={style.section}>
                 <div className={style.head}>
-                    <div className={style.descHead}>
-                        <p className={style.desc}>REALIZACJE</p>
-                        <h2 data-aos="zoom-in" className={style.descTitle}>Instalacje elekrtyczne</h2>
+                    <div className="descHead">
+                        <p className="desc">REALIZACJE</p>
+                        <h2 data-aos="zoom-in" className="descTitle">Instalacje elekrtyczne</h2>
                         <p className={style.descText}>Instalacje elektryczne i teletechniczne obiektów. Montaż, instalacja, uruchomienie i szkolenie.</p>
                     </div>
                 </div>
@@ -125,9 +121,9 @@ const Realizations = () => {
 
             <section className={style.section}>
                 <div className={style.head}>
-                    <div className={style.descHead}>
-                        <p className={style.desc}>REALIZACJE</p>
-                        <h2 data-aos="zoom-in" className={style.descTitle}>UPSy</h2>
+                    <div className="descHead">
+                        <p className="desc">REALIZACJE</p>
+                        <h2 data-aos="zoom-in" className="descTitle">UPSy</h2>
                         <p className={style.descText}>Małe dla biur i domu. Do serwerowni. Dla przemysłu i infrastruktury.</p>
                     </div>
 

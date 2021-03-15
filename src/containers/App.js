@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 // components
 import Nav from "../components/Nav/Nav";
 import Contact from '../components/Contact/Contact'
-import About from '../components/About/About'
+import Home from '../components/Home/Home'
 import Offer from '../components/Offer/Offer'
 import Realizations from '../components/Realizations/Realizations'
 import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy'
@@ -28,12 +28,12 @@ const App = () => {
     <BrowserRouter>
       <Nav />
       <Switch>
-        <Route path='/about' component={About} />
+        <Route path='/home' component={Home} />
         <Route path='/offer' component={Offer} />
         <Route path='/realizations' component={Realizations} />
         <Route path='/contact' component={Contact} />
         <Route path='/privacy-policy' component={PrivacyPolicy} />
-        <Redirect to='/about' />
+        <Redirect to='/home' />
       </Switch>
       <AlertPrivacy />
       <Footer />

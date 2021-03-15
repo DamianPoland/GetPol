@@ -5,10 +5,6 @@
     background: var(--backgroundCustom);
 }
 
-.img {
-    width: 100%;
-    height: 100%;
-}
 
 /* START section */
 
@@ -19,19 +15,15 @@
 }
 
 .start {
-    max-width: 1200px;
-    height: 12rem;
-    margin: auto;
+    height: 6rem;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
-.start__imgContainer {}
-
 .start__img {
-    height: 12rem;
-    width: 12rem;
+    height: 6rem;
+    width: 6rem;
 }
 
 .start__imgMirror {
@@ -44,13 +36,12 @@
 }
 
 .start__desc {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    transform: translateY(-2rem);
     letter-spacing: 0.5rem;
-    font-size: 2rem;
-    padding: 0.5rem 0;
     color: var(--text);
     background-color: white;
-    padding: 2rem 4rem;
-    transform: translateY(-3rem);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
 }
@@ -72,32 +63,11 @@
     padding: 0 0 2rem 0;
 }
 
-.descHead {
-    border-left: rgb(var(--accent)) 0.2rem solid;
-    padding-left: 1.5rem;
-}
-
-.desc {
-    letter-spacing: 0.3rem;
-    font-size: 1rem;
-    padding: 0.5rem 0;
-    color: var(--text);
-}
-
-
-.descTitle {
-    font-size: 2rem;
-    color: rgb(var(--accent));
-    padding: 0.5rem 0;
-    font-weight: bold;
-}
-
 .descText {
     font-size: 1rem;
     padding: 0.5rem 0;
     color: var(--text);
     line-height: 1rem;
-
 }
 
 .slider {
@@ -105,21 +75,22 @@
     height: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media (min-width: 800px) {
 
     .start {
-        height: 6rem;
+        max-width: 1200px;
+        margin: auto;
+        height: 12rem;
     }
 
     .start__img {
-        height: 6rem;
-        width: 6rem;
+        height: 12rem;
+        width: 12rem;
     }
 
     .start__desc {
-        font-size: 1.5rem;
-        padding: 1rem 2rem;
-        transform: translateY(-2rem);
-
+        font-size: 2rem;
+        padding: 2rem 4rem;
+        transform: translateY(-3rem);
     }
 }

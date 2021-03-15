@@ -20,12 +20,12 @@ const Nav = () => {
     return (
         <header className={style.background}>
             <nav className={style.container}>
-                <div className={style.header}>
+                <NavLink to='/home' className={style.header}>
                     <img className={style.headerImg} src={logo} alt='logo' />
                     <img className={style.headerImg2} src={getpol_logo_white_no_foot} alt='getpol_logo_white_no_foot' />
-                </div>
+                </NavLink>
                 <ul onClick={() => setIsOpenMobileMenu(false)} className={`${style.list} ${styleMobileMenu}`}>
-                    <li className={style.listItem}><NavLink to='/about' activeClassName={style.activeLink} className={style.listItemAnchor}>O firmie</NavLink></li>
+                    <li className={style.listItem}><NavLink to='/home' activeClassName={style.activeLink} className={style.listItemAnchor}>Strona główna</NavLink></li>
                     <li className={style.listItem}><NavLink to='/realizations' activeClassName={style.activeLink} className={style.listItemAnchor}>Realizacje</NavLink></li>
                     <li className={style.listItem}><NavLink to='/offer' activeClassName={style.activeLink} className={style.listItemAnchor}>Oferta</NavLink></li>
                     <li className={style.listItem}><NavLink to='/contact' activeClassName={style.activeLink} className={style.listItemAnchor}>Kontakt</NavLink></li>

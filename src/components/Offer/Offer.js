@@ -35,12 +35,8 @@ const Offer = () => {
 
             <header className={style.start__background}>
                 <div className={style.start}>
-                    <figure className={style.start__imgContainer}>
-                        <img className={`${style.start__img}`} src={bulb} alt='bulb' />
-                    </figure>
-                    <figure className={style.start__imgContainer}>
-                        <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
-                    </figure>
+                    <img className={`${style.start__img}`} src={bulb} alt='bulb' />
+                    <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
                 </div>
             </header>
             <div className={style.start__descContainer}>
@@ -52,9 +48,9 @@ const Offer = () => {
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>AGREGATY</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Agregaty prądotwórcze w zakresie mocy 2kVA – 3750kVA</h2>
+                        <div className="descHead">
+                            <p className="desc">AGREGATY</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Agregaty prądotwórcze w zakresie mocy 2kVA – 3750kVA</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -70,15 +66,15 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img onLoad={() => setLoadPhoto(true)} className={style.img} src={agregat} alt='agregat' />
+                        <img onLoad={() => setLoadPhoto(true)} className="img" src={agregat} alt='agregat' />
                     </figure>
                 </section>
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>AGREGATY</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Serwis agregatów prądotwórczych.</h2>
+                        <div className="descHead">
+                            <p className="desc">AGREGATY</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Serwis agregatów prądotwórczych.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -102,15 +98,15 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className={style.img} src={serwis} alt='serwis' />
+                        <img className="img" src={serwis} alt='serwis' />
                     </figure>
                 </section>
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>ZASILACZE</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Zasilacze awaryjne UPS w zakresie mocy 1kVA – 600kVA.</h2>
+                        <div className="descHead">
+                            <p className="desc">ZASILACZE</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Zasilacze awaryjne UPS w zakresie mocy 1kVA – 600kVA.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -126,15 +122,15 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className={style.img} src={zasilaczUps} alt='zasilaczUps' />
+                        <img className="img" src={zasilaczUps} alt='zasilaczUps' />
                     </figure>
                 </section>
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>ZASILACZE</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Zasilacze urządzeń przeciwpożarowych.</h2>
+                        <div className="descHead">
+                            <p className="desc">ZASILACZE</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Zasilacze urządzeń przeciwpożarowych.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -150,15 +146,15 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className={style.img} src={zasilacz} alt='zasilacz' />
+                        <img className="img" src={zasilacz} alt='zasilacz' />
                     </figure>
                 </section>
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>AUTOMATYKA</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Układy automatyki SZR / ATS.</h2>
+                        <div className="descHead">
+                            <p className="desc">AUTOMATYKA</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Układy automatyki SZR / ATS.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -170,15 +166,15 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className={style.img} src={szr} alt='szr' />
+                        <img className="img" src={szr} alt='szr' />
                     </figure>
                 </section>
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>MODUŁY</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Moduły komunikacji i obsługi zdalnej urządzeń.</h2>
+                        <div className="descHead">
+                            <p className="desc">MODUŁY</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Moduły komunikacji i obsługi zdalnej urządzeń.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -194,15 +190,15 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className={style.img} src={tele} alt='tele' />
+                        <img className="img" src={tele} alt='tele' />
                     </figure>
                 </section>
 
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
-                        <div className={style.descHead}>
-                            <p className={style.desc}>INSTALACJE</p>
-                            <h2 data-aos="zoom-in" className={style.descTitle}>Instalacje elektryczne i teletechniczne obiektów.</h2>
+                        <div className="descHead">
+                            <p className="desc">INSTALACJE</p>
+                            <h2 data-aos="zoom-in" className="descTitle">Instalacje elektryczne i teletechniczne obiektów.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
@@ -214,7 +210,7 @@ const Offer = () => {
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className={style.img} src={instalacje} alt='instalacje' />
+                        <img className="img" src={instalacje} alt='instalacje' />
                     </figure>
                 </section>
 

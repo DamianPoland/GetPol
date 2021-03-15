@@ -121,12 +121,8 @@ const Contact = () => {
 
             <header className={style.start__background}>
                 <div className={style.start}>
-                    <figure className={style.start__imgContainer}>
-                        <img className={`${style.start__img}`} src={bulb} alt='bulb' />
-                    </figure>
-                    <figure className={style.start__imgContainer}>
-                        <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
-                    </figure>
+                    <img className={`${style.start__img}`} src={bulb} alt='bulb' />
+                    <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
                 </div>
             </header>
             <div className={style.start__descContainer}>

@@ -1,15 +1,21 @@
+/* paginations (dot) color */
 .swiper-pagination-bullet-active {
     background: rgb(var(--accent)) !important;
 }
 
-.swiper-button-prev {
-    color: rgb(var(--accent)) !important;
-}
-
+/* arrows color */
+.swiper-button-prev,
 .swiper-button-next {
     color: rgb(var(--accent)) !important;
 }
 
+/* arrows size */
+.swiper-button-next::after,
+.swiper-button-prev:after {
+    font-size: 3rem !important;
+}
+
+/* image container */
 .swiper-slider-ontainer-custom {
     background: white;
     display: flex;
