@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 //photos
 import background__start from '../../assets/background__start.png'
-import start__img from '../../assets/start.png'
 import about_img from '../../assets/about_img.jpg'
 import offers_img from '../../assets/offers_img.jpg'
 
@@ -48,9 +47,11 @@ const Home = () => {
                 <div className={style.start}>
                     <img className={style.start__img} src={background__start} alt='getpol start' />
                     <div className={style.start__blackCover}></div>
-                    <figure className={style.start__figureLogo}>
-                        <img className="img" src={start__img} alt='getpol logo' />
-                    </figure>
+                    <div className={style.start__titleContainer}>
+                        <h1 className={style.start__title1}>GWARANCJA ZASILANIA</h1>
+                        <p className={style.start__title2}>sprzedaż - serwis - motaż</p>
+
+                    </div>
                     <i className={style.start__arrow} />
                 </div>
             </section>
