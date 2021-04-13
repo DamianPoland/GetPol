@@ -49,7 +49,7 @@ const Home = () => {
                     <div className={style.start__blackCover}></div>
                     <div className={style.start__titleContainer}>
                         <h1 className={style.start__title1}>GWARANCJA ZASILANIA</h1>
-                        <p className={style.start__title2}>sprzedaż - serwis - motaż</p>
+                        <p className={style.start__title2}>sprzedaż - montaż - serwis</p>
 
                     </div>
                     <i className={style.start__arrow} />
