@@ -12,7 +12,7 @@
 /* arrows size */
 .swiper-button-next::after,
 .swiper-button-prev:after {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
 }
 
 /* image container */

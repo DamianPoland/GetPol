@@ -11,7 +11,7 @@
 
 html,
 body {
-  font-size: 75%;
+  font-size: 100%;
   overflow-x: hidden;
   background: black;
 
@@ -47,15 +47,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media (min-width: 500px) {
-
-  html,
-  body {
-    font-size: 100%;
-  }
-}
-
-
 /* ALL */
 
 .img {
@@ -66,7 +57,7 @@ body::-webkit-scrollbar-thumb {
 
 .descHead {
   border-left: rgb(var(--accent)) 0.2rem solid;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 .desc {
@@ -81,8 +72,20 @@ body::-webkit-scrollbar-thumb {
 }
 
 .descTitle {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: rgb(var(--accent));
   padding: 0.5rem 0;
   font-weight: bold;
+}
+
+
+@media (min-width:500px) {
+
+  .descHead {
+    padding-left: 1.5rem;
+  }
+
+  .descTitle {
+    font-size: 2rem;
+  }
 }

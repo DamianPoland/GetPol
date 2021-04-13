@@ -8,9 +8,8 @@ import AOS from 'aos'
 import TouchSlider from "../../UI/TouchSlider/TouchSlider"
 
 // photos
-import bulb from '../../assets/bulb.jpg'
+import background__top from "../../assets/background__top.png"
 
-// photos
 import agr1 from "../../assets/agregaty/agr1.jpg"
 import agr2 from "../../assets/agregaty/agr2.jpg"
 import agr3 from "../../assets/agregaty/agr3.jpg"
@@ -84,21 +83,18 @@ const Realizations = () => {
         <main className={style.background}>
 
             <header className={style.start__background}>
-                <div className={style.start}>
-                    <img className={`${style.start__img}`} src={bulb} alt='bulb' />
-                    <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
-                </div>
+                <figure className={style.start}>
+                    <img className={style.start__img} src={background__top} alt='getpol start' />
+                    <div className={style.start__blackCover}></div>
+                </figure>
             </header>
-            <div className={style.start__descContainer}>
-                <h1 className={style.start__desc}>REALIZACJE</h1>
-            </div>
 
             <section className={style.section}>
                 <div className={style.head}>
                     <div className="descHead">
                         <p className="desc">REALIZACJE</p>
                         <h2 data-aos="zoom-in" className="descTitle">Agregaty prądotwórcze</h2>
-                        <p className={style.descText}>Wersje otwarte, zamknięte i mobilne na przyczepie. Jednofazowe i trójfazowe. Benzynowe, diesla i gazowe LPG / NG.</p>
+                        <p className={style.descText}>Wersje otwarte, zamknięte i mobilne na przyczepie. Jednofazowe i trójfazowe. Benzynowe, diesla i gazowe LPG / NG. Montaż, instalacja, uruchomienie i szkolenie.</p>
                     </div>
                 </div>
                 <div onLoad={() => setLoadPhoto(true)} className={style.slider}>
@@ -111,7 +107,7 @@ const Realizations = () => {
                     <div className="descHead">
                         <p className="desc">REALIZACJE</p>
                         <h2 data-aos="zoom-in" className="descTitle">Instalacje elekrtyczne</h2>
-                        <p className={style.descText}>Instalacje elektryczne i teletechniczne obiektów. Montaż, instalacja, uruchomienie i szkolenie.</p>
+                        <p className={style.descText}>Instalacje elektryczne i teletechniczne obiektów.</p>
                     </div>
                 </div>
                 <div className={style.slider}>
@@ -124,7 +120,7 @@ const Realizations = () => {
                     <div className="descHead">
                         <p className="desc">REALIZACJE</p>
                         <h2 data-aos="zoom-in" className="descTitle">UPSy</h2>
-                        <p className={style.descText}>Małe dla biur i domu. Do serwerowni. Dla przemysłu i infrastruktury.</p>
+                        <p className={style.descText}>Małe dla biur i domu. Do serwerowni. Dla przemysłu i infrastruktury. Montaż, instalacja, uruchomienie i szkolenie.</p>
                     </div>
 
                 </div>

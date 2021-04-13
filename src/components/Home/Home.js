@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 
 //photos
-import getpol_logo_red from '../../assets/getpol_logo_red.png'
+import background__start from '../../assets/background__start.png'
+import start__img from '../../assets/start.png'
 import about_img from '../../assets/about_img.jpg'
 import offers_img from '../../assets/offers_img.jpg'
-import bulb from '../../assets/bulb.jpg'
 
 // icons
 import { ReactComponent as Task } from '../../assets/task.svg'
@@ -46,22 +46,10 @@ const Home = () => {
 
             <section className={style.start__background}>
                 <div className={style.start}>
-
-                    <figure className={style.start__imgBulb1}>
-                        <img className="img" src={bulb} alt='bulb' />
-                    </figure>
-
-                    <div className={style.start__containerBottom}>
-                        <figure className={style.start__imgBulb2}>
-                            <img className="img" src={bulb} alt='bulb' />
-                        </figure>
-                        <figure className={style.start__imgBulb3}>
-                            <img className="img" src={bulb} alt='bulb' />
-                        </figure>
-                    </div>
-
-                    <figure className={style.start__imgLogo}>
-                        <img className="img" src={getpol_logo_red} alt='getpol_logo_red' />
+                    <img className={style.start__img} src={background__start} alt='getpol start' />
+                    <div className={style.start__blackCover}></div>
+                    <figure className={style.start__figureLogo}>
+                        <img className="img" src={start__img} alt='getpol logo' />
                     </figure>
                     <i className={style.start__arrow} />
                 </div>
@@ -77,9 +65,9 @@ const Home = () => {
                 <div className={style.about__desc}>
                     <div className="descHead">
                         <p className="desc">O NAS</p>
-                        <h1 data-aos="zoom-in" className="descTitle">Eksperci od elektryki</h1>
+                        <h1 data-aos="zoom-in" className="descTitle">Eksperci od zasilania</h1>
                     </div>
-                    <p className={style.descText}>Firma Getpol rozpoczęła działalność w 2014 roku. Początkowo działalność firmy opierała się głównie na sprzedaży agregatów prądotwórczych i zasilaczy bezprzerwowych UPS. Z czasem poszerzyliśmy ofertę o serwis, a wychodząc naprzeciw oczekiwaniom naszych Klientów z czasem do oferty dołączyliśmy także kompletne instalacje dostarczanych urządzeń. Poza tym wykonujemy instalacje niskoprądowe oraz elektryczne.</p>
+                    <p className={style.descText}>Firma Getpol rozpoczęła działalność w 2014 roku. Początkowo działalność firmy opierała się głównie na sprzedaży agregatów prądotwórczych i zasilaczy bezprzerwowych UPS. Z czasem wychodząc na przeciw oczekiwaniom naszych Klientów, ofertę poszerzyliśmy o serwis, a także kompletne instalacje dostarczanych urządzeń. Wykonujemy również instalacje elektryczne i teletechniczne.</p>
                 </div>
             </section>
 

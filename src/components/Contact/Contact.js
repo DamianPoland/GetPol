@@ -6,13 +6,11 @@ import emailjs from 'emailjs-com';
 import Alert from '../../UI/Alert/Alert'
 import Spinner from '../../UI/Spinner/Spinner'
 
-// photos
-import bulb from '../../assets/bulb.jpg'
-
 //photos images svg
+import background__top from "../../assets/background__top.png"
+
 import { ReactComponent as Phone } from '../../assets/phone.svg'
 import { ReactComponent as Email } from '../../assets/email.svg'
-import { ReactComponent as Location } from '../../assets/location.svg'
 import { ReactComponent as Envelope } from '../../assets/envelope.svg'
 
 
@@ -118,26 +116,26 @@ const Contact = () => {
     return (
         <main className={style.background}>
 
-
             <header className={style.start__background}>
-                <div className={style.start}>
-                    <img className={`${style.start__img}`} src={bulb} alt='bulb' />
-                    <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
-                </div>
+                <figure className={style.start}>
+                    <img className={style.start__img} src={background__top} alt='getpol start' />
+                    <div className={style.start__blackCover}></div>
+                </figure>
             </header>
-            <div className={style.start__descContainer}>
-                <h1 className={style.start__desc}>KONTAKT</h1>
-            </div>
 
             <div className={style.section}>
                 <div className={style.contact}>
 
                     {/* contact links  */}
                     <section className={style.content}>
-                        <a className={style.contentItem} href={`http://maps.google.com/?q=Gdańsk ul. Wawelska 33/6`} target='blank' >
-                            <div className={style.contentIcon}><Location /></div>
-                            <p className={style.contentDesc}>Gdańsk ul. Wawelska 33/6</p>
-                        </a>
+
+                        <p className={style.contentDataTitle}>Dane rejestrowe:</p>
+                        <div className={style.contentData}>
+                            <p className={style.contentDataText}>NIP: 9570575239</p>
+                            <p className={style.contentDataText}>ul. Wawelska 33/6, Gdańsk </p>
+                        </div>
+
+                        <p className={style.contentDataTitle}>Dane kontaktowe:</p>
                         <a className={style.contentItem} href='tel:+48730793222'>
                             <div className={style.contentIcon}><Phone /></div>
                             <p className={style.contentDesc}>+48 730-793-222</p>

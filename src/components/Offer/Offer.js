@@ -8,14 +8,14 @@ import AOS from 'aos'
 import { ReactComponent as Plug } from '../../assets/plug.svg'
 
 // photos
-import bulb from '../../assets/bulb.jpg'
+import background__top from "../../assets/background__top.png"
+
 import agregat from '../../assets/agregat.jpg'
 import serwis from '../../assets/serwis.jpg'
 import szr from '../../assets/szr.jpg'
 import tele from '../../assets/tele.jpg'
 import zasilaczUps from '../../assets/zasilaczUps.jpg'
 import zasilacz from '../../assets/zasilacz.jpg'
-import instalacje from '../../assets/instalacje.jpg'
 
 
 const Offer = () => {
@@ -32,17 +32,12 @@ const Offer = () => {
 
         <main className={style.background}>
 
-
             <header className={style.start__background}>
-                <div className={style.start}>
-                    <img className={`${style.start__img}`} src={bulb} alt='bulb' />
-                    <img className={`${style.start__img} ${style.start__imgMirror}`} src={bulb} alt='bulb' />
-                </div>
+                <figure className={style.start}>
+                    <img className={style.start__img} src={background__top} alt='getpol start' />
+                    <div className={style.start__blackCover}></div>
+                </figure>
             </header>
-            <div className={style.start__descContainer}>
-                <h1 className={style.start__desc}>OFERTA</h1>
-            </div>
-
 
             <div className={style.section}>
 
@@ -120,6 +115,9 @@ const Offer = () => {
                             <div className={style.descItemSvg}><Plug /></div>
                             <p className={style.descItemText}>Dla przemysłu i infrastruktury.</p>
                         </div>
+                        <div className={style.btnContainer}>
+                            <a href="https://ever.eu/" target="_blank" rel="noopener noreferrer" className={`${style.btn} ${style.btn__accentText}`}>Pełna oferta zasilaczy<i className={style.rightArrow}></i></a>
+                        </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
                         <img className="img" src={zasilaczUps} alt='zasilaczUps' />
@@ -173,44 +171,20 @@ const Offer = () => {
                 <section className={style.descSection}>
                     <div className={style.descContainer}>
                         <div className="descHead">
-                            <p className="desc">MODUŁY</p>
-                            <h2 data-aos="zoom-in" className="descTitle">Moduły komunikacji i obsługi zdalnej urządzeń.</h2>
-                        </div>
-                        <div className={style.descItemContainer}>
-                            <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>RS232-485.</p>
-                        </div>
-                        <div className={style.descItemContainer}>
-                            <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Ethernet/Internet RJ45.</p>
-                        </div>
-                        <div className={style.descItemContainer}>
-                            <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>GSM.</p>
-                        </div>
-                    </div>
-                    <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className="img" src={tele} alt='tele' />
-                    </figure>
-                </section>
-
-                <section className={style.descSection}>
-                    <div className={style.descContainer}>
-                        <div className="descHead">
                             <p className="desc">INSTALACJE</p>
                             <h2 data-aos="zoom-in" className="descTitle">Instalacje elektryczne i teletechniczne obiektów.</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Montaż, instalacja, uruchomienie.</p>
+                            <p className={style.descItemText}>Instalacja.</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Szkolenia.</p>
+                            <p className={style.descItemText}>Pompy.</p>
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
-                        <img className="img" src={instalacje} alt='instalacje' />
+                        <img className="img" src={tele} alt='instalacje' />
                     </figure>
                 </section>
 
