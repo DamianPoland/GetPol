@@ -68,7 +68,7 @@ const Home = () => {
                         <p className="desc">O NAS</p>
                         <h1 data-aos="zoom-in" className="descTitle">Eksperci od zasilania</h1>
                     </div>
-                    <p className={style.descText}>Firma Getpol rozpoczęła działalność w 2014 roku. Początkowo działalność firmy opierała się głównie na sprzedaży agregatów prądotwórczych i zasilaczy bezprzerwowych UPS. Z czasem wychodząc na przeciw oczekiwaniom naszych Klientów, ofertę poszerzyliśmy o serwis, a także kompletne instalacje dostarczanych urządzeń. Wykonujemy również instalacje elektryczne i teletechniczne.</p>
+                    <p className={style.descText}>Firma Getpol rozpoczęła działalność w 2014 roku. Początkowo działalność firmy opierała się głównie na sprzedaży agregatów prądotwórczych i zasilaczy bezprzerwowych UPS. Z czasem, wychodząc naprzeciw oczekiwaniom naszych Klientów, ofertę poszerzyliśmy o serwis, a także kompletne instalacje dostarczanych urządzeń. Wykonujemy również instalacje elektryczne i teletechniczne.</p>
                 </div>
             </section>
 
@@ -135,7 +135,7 @@ const Home = () => {
                         <p className="desc desc__whiteText">REALIZACJE</p>
                         <p data-aos="zoom-in" className="descTitle">Niektóre nasze projekty</p>
                     </div>
-                    <h2 className={`${style.descText} ${style.descText__whiteText}`}>Mamy za sobą z sukcesem zrealizowane dostawy oraz instalacje dla klientów indywidualnych jak i instytucjonalnych.</h2>
+                    <h2 className={`${style.descText} ${style.descText__whiteText}`}>Mamy za sobą z sukcesem zrealizowane dostawy oraz instalacje dla Klientów indywidualnych jak i instytucjonalnych.</h2>
                     <div className={style.realizations__imgContainer}>
                         <figure data-aos="flip-up" className={style.realizations__img}>
                             <img className="img" src={agr1} alt='agr1' />

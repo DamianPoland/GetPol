@@ -10,6 +10,7 @@ import Spinner from '../../UI/Spinner/Spinner'
 import background__top from "../../assets/background__top.png"
 
 import { ReactComponent as Phone } from '../../assets/phone.svg'
+import { ReactComponent as OldPhone } from '../../assets/oldPhone.svg'
 import { ReactComponent as Email } from '../../assets/email.svg'
 import { ReactComponent as Envelope } from '../../assets/envelope.svg'
 
@@ -139,6 +140,10 @@ const Contact = () => {
                         <a className={style.contentItem} href='tel:+48730793222'>
                             <div className={style.contentIcon}><Phone /></div>
                             <p className={style.contentDesc}>+48 730-793-222</p>
+                        </a>
+                        <a className={style.contentItem} href='tel:+48583414110'>
+                            <div className={style.contentIcon}><OldPhone /></div>
+                            <p className={style.contentDesc}>+48 58-341-41-10</p>
                         </a>
                         <a className={style.contentItem} href='mailto:biuro@getpol.com.pl?subject=Zapytanie'>
                             <div className={style.contentIcon}><Email /></div>

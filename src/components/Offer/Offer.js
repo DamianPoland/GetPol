@@ -49,15 +49,15 @@ const Offer = () => {
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Wersje otwarte, zamknięte i mobilne na przyczepie.</p>
+                            <p className={style.descItemText}>Wersje otwarte, zamknięte i mobilne na przyczepie</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Jednofazowe i trójfazowe.</p>
+                            <p className={style.descItemText}>Jednofazowe i trójfazowe</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Benzynowe, diesla i gazowe LPG / NG.</p>
+                            <p className={style.descItemText}>Benzynowe, diesla i gazowe LPG / NG</p>
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
@@ -69,27 +69,27 @@ const Offer = () => {
                     <div className={style.descContainer}>
                         <div className="descHead">
                             <p className="desc">AGREGATY</p>
-                            <h2 data-aos="zoom-in" className="descTitle">Serwis agregatów prądotwórczych.</h2>
+                            <h2 data-aos="zoom-in" className="descTitle">Serwis agregatów prądotwórczych</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>FOGO.</p>
+                            <p className={style.descItemText}>FOGO</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>PRAMAC.</p>
+                            <p className={style.descItemText}>PRAMAC</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>ENDRESS.</p>
+                            <p className={style.descItemText}>ENDRESS</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>CUMMINS.</p>
+                            <p className={style.descItemText}>CUMMINS</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>zasilaczy UPS EVER.</p>
+                            <p className={style.descItemText}>Zasilaczy UPS EVER</p>
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
@@ -101,19 +101,19 @@ const Offer = () => {
                     <div className={style.descContainer}>
                         <div className="descHead">
                             <p className="desc">ZASILACZE</p>
-                            <h2 data-aos="zoom-in" className="descTitle">Zasilacze awaryjne UPS w zakresie mocy 1kVA – 600kVA.</h2>
+                            <h2 data-aos="zoom-in" className="descTitle">Zasilacze awaryjne UPS w zakresie mocy 1kVA – 600kVA</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Małe dla biur i domu.</p>
+                            <p className={style.descItemText}>Małe dla biur i domu</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Dla serwerowni.</p>
+                            <p className={style.descItemText}>Dla serwerowni</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Dla przemysłu i infrastruktury.</p>
+                            <p className={style.descItemText}>Dla przemysłu i infrastruktury</p>
                         </div>
                         <div className={style.btnContainer}>
                             <a href="https://ever.eu/" target="_blank" rel="noopener noreferrer" className={`${style.btn} ${style.btn__accentText}`}>Pełna oferta zasilaczy<i className={style.rightArrow}></i></a>
@@ -128,19 +128,19 @@ const Offer = () => {
                     <div className={style.descContainer}>
                         <div className="descHead">
                             <p className="desc">ZASILACZE</p>
-                            <h2 data-aos="zoom-in" className="descTitle">Zasilacze urządzeń przeciwpożarowych.</h2>
+                            <h2 data-aos="zoom-in" className="descTitle">Zasilacze urządzeń przeciwpożarowych</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Współpraca z napędami bram używanymi w systemach kontroli rozprzestrzeniania dymu i ciepła, zasilanymi z jednofazowej sieci energetycznej ~230 V, o zapotrzebowaniu na moc nie większym niż 1 kVA / 1 kW.</p>
+                            <p className={style.descItemText}>Współpraca z napędami bram używanymi w systemach kontroli rozprzestrzeniania dymu i ciepła, zasilanymi z jednofazowej sieci energetycznej ~230 V, o zapotrzebowaniu na moc nie większym niż 1 kVA / 1 kW</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Zapewnia ciągłość zasilania bram pożarowych.</p>
+                            <p className={style.descItemText}>Zapewnia ciągłość zasilania bram pożarowych</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Urządzenie posiada Świadectwo dopuszczenia i Certyfikat.</p>
+                            <p className={style.descItemText}>Urządzenie posiada Świadectwo dopuszczenia i Certyfikat</p>
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
@@ -152,15 +152,15 @@ const Offer = () => {
                     <div className={style.descContainer}>
                         <div className="descHead">
                             <p className="desc">AUTOMATYKA</p>
-                            <h2 data-aos="zoom-in" className="descTitle">Układy automatyki SZR / ATS.</h2>
+                            <h2 data-aos="zoom-in" className="descTitle">Układy automatyki SZR / ATS</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Stycznikowe.</p>
+                            <p className={style.descItemText}>Stycznikowe</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Przełącznikowe.</p>
+                            <p className={style.descItemText}>Przełącznikowe</p>
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
@@ -172,15 +172,15 @@ const Offer = () => {
                     <div className={style.descContainer}>
                         <div className="descHead">
                             <p className="desc">INSTALACJE</p>
-                            <h2 data-aos="zoom-in" className="descTitle">Instalacje elektryczne i teletechniczne obiektów.</h2>
+                            <h2 data-aos="zoom-in" className="descTitle">Instalacje elektryczne i teletechniczne obiektów</h2>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Instalacja.</p>
+                            <p className={style.descItemText}>Instalacja</p>
                         </div>
                         <div className={style.descItemContainer}>
                             <div className={style.descItemSvg}><Plug /></div>
-                            <p className={style.descItemText}>Pompy.</p>
+                            <p className={style.descItemText}>Pomiary</p>
                         </div>
                     </div>
                     <figure data-aos="fade-up-left" className={style.imgContainer}>
