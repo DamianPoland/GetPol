@@ -31,9 +31,15 @@ const TouchSlider = props => {
     return (
         <Swiper
             style={{ padding: "1rem 0 3rem 0" }}
-            effect="coverflow" // cube or coverflow
-            spaceBetween={0} // margin
-            slidesPerView={window.innerWidth > 500 ? 3 : 1} // how many slides visible => according to with (pnone => 1 and PC => 3)
+            // effect="coverflow" // cube or coverflow
+            spaceBetween={16} // margin
+
+            slidesPerView={1}
+            breakpoints={{
+                500: { slidesPerView: 2, }, // when window width is >= 500px
+                800: { slidesPerView: 3, }, // when window width is >= 800px
+            }}
+
             loop={true}
             navigation
             pagination={{ clickable: true }}

@@ -66,7 +66,7 @@
 .start__background {
     width: 100%;
     overflow: hidden;
-    background: black;
+    background: rgb(var(--background));
 
     /*full screen in mobile first section (cut browser search bar on mobile) + js code*/
     height: calc(100vh - 6rem);
@@ -100,7 +100,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(var(--background), 0.2);
 }
 
 .start__titleContainer {
@@ -123,7 +123,7 @@
 }
 
 .start__title2 {
-    color: rgb(221, 221, 221);
+    color: white;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 3px;
@@ -269,8 +269,7 @@
 /* REALIZATIONS section */
 
 .realizations {
-    background: black;
-    background-size: cover;
+    background: rgb(var(--background));
     padding: 8rem 0;
 }
 

@@ -29,6 +29,8 @@ body {
 
   --text: #5c6f87;
 
+  --background: 40, 40, 40;
+
   --backgroundCustom: linear-gradient(90deg, rgb(240, 240, 240) 0%, rgb(221, 221, 221) 50%, rgb(240, 240, 240) 100%);
 }
 

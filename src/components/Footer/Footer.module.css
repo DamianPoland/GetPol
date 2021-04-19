@@ -1,5 +1,5 @@
 .background {
-    background: black;
+    background: rgb(var(--background));
 }
 
 .container {
