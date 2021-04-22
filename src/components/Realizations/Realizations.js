@@ -119,7 +119,7 @@ const Realizations = () => {
                 <div className={style.head}>
                     <div className="descHead">
                         <p className="desc">REALIZACJE</p>
-                        <h2 data-aos="zoom-in" className="descTitle">UPSy</h2>
+                        <h2 data-aos="zoom-in" className="descTitle">Zasilacze UPS</h2>
                         <p className={style.descText}>Małe dla biur i domu. Do serwerowni. Dla przemysłu i infrastruktury. Montaż, instalacja, uruchomienie i szkolenie.</p>
                     </div>
 
