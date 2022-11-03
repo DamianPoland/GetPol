@@ -81,8 +81,12 @@ const Contact = () => {
         //show spinner
         setIsSpinnerShow(true)
 
-        //sent email
-        emailjs.sendForm(process.env.REACT_APP_TO_SERVICE_ID, process.env.REACT_APP_TO_TEMPLATE_ID, event.target, process.env.REACT_APP_TO_USER_ID)
+        //sent email to biuro@getpol.com.pl
+        emailjs.sendForm(
+            process.env.REACT_APP_TO_SERVICE_ID,
+            process.env.REACT_APP_TO_TEMPLATE_ID,
+            event.target,
+            process.env.REACT_APP_TO_PUBLIC_KEY)
             .then(() => {
 
                 // turn off spinner
